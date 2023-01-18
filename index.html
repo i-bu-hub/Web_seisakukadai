@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script sre="api.js"></script>
+    <title>あなたにおすすめのLiSAの曲は？？</title>
+</head>
+
+<body>
+    <header class="hero is-danger is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">今のあなたにおすすめのLiSAの曲は？</h1>
+                <h2 class="my data">日本大学文理学部情報科学科 Webプログラミングの最終課題 5421020 坂内武希</h2>
+            </div>
+        </div>
+    </header>
+    <div class="box">
+        <div class="has-text-centered">
+            <p>皆さん、「LiSA」はご存じですか？</p>
+            <p>大抵の人は、アニメ「鬼滅の刃」から知ったと思います。しかし、それ以前からも「アニソン界の女王」として神曲を出しまくっています！</p>
+            <p>「LiSAってどんな曲歌うの？」「どれ聞けばいいか分からないよ。」という方もいると思います。</p>
+            <p>「全部聴け！！」という気持ちを抑えながら、LiSAっ子(LiSAのファン)歴10年の私が、独断と偏見でおすすめしていこうと思います！</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <div id="q1" class="first">
+            <div class="box">
+                <p>質問1</p>
+                <div class="has-text-centered is-size-4">
+                    <p>やっぱりロックでしょ！</p>
+                </div>
+            </div>
+            <ul>
+                <li><a class="buttons" href="#q2" data-value="y1">
+                        <button class="button is-info is-fullwidth">YES</button>
+                    </a></li>
+                <li><a class="buttons" href="#q2" data-value="n1">
+                        <button class="button is-danger is-fullwidth">NO </button>
+                    </a></li>
+            </ul>
+        </div>
+
+        <div id="q2" style="display: none;">
+            <div class="box">
+                <p>質問2</p>
+                <div class="has-text-centered is-size-4">
+                    <p>かっこいい歌でテンション上げたい！</p>
+                </div>
+            </div>
+            <ul>
+                <li><a class="buttons" href="#q3" data-value="y2">
+                        <button class="button is-info is-fullwidth">YES</button>
+                    </a></li>
+                <li><a class="buttons" href="#q3" data-value="n2">
+                        <button class="button is-danger is-fullwidth">NO </button>
+                    </a></li>
+            </ul>
+        </div>
+
+
+        <div id="q3" style="display: none;">
+            <div class="box">
+                <p>質問3</p>
+                <div class="has-text-centered is-size-4">
+                    <p>LiSAといえばアニソンだ！</p>
+                </div>
+            </div>
+            <ul>
+                <li><a class="buttons end" data-value="y3">
+                        <button class="button is-info is-fullwidth">YES</button>
+                    </a></li>
+                <li><a class="buttons end" data-value="n3">
+                        <button class="button is-danger is-fullwidth">NO </button>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="box">
+        <div id="a1" class="result" style="display: none;">
+            <div class="resuruted1">
+                <p>あなたにおすすめの曲は...</p>
+            </div>
+            <div class="result_character1">
+                <a href="https://open.spotify.com/track/6RpBs7BsS9oiHKtzJXsMOS?si=1b3b1b025c7940e6">ADAMAS</a>
+            </div>
+            <div class="result_commentary1">
+                <p>全てYESを選んだあなたにはADAMASがおすすめ！</p>
+                <p>アニメ「ソードアートオンライン」の主題歌でもあり、主人公やその他登場人物それぞれの思いを力強く感じられる歌です。</p>
+                <p>アニメを見てない方は、見てから聞くとさらに心に響くかも！</p>
+            </div>
+            <div class="restart_bottons">
+                <a class="button has-background-primary-light" href="index.html">もう一回！</a>
+            </div>
+        </div>
+
+        <div id="a2" style="display: none;">
+            <div class="resuruted2" style="display: none;">
+                <p>あなたにおすすめの曲は...</p>
+            </div>
+            <div class="result_character2">
+                <a href="https://open.spotify.com/track/3pvwavXxyhx7lIBdYY5Mjq?si=e134128597a443ad">ROCK-mode</a>
+            </div>
+            <div class="result_commentary2">
+                <p>あなたにおすすめの曲はROCK-mode!
+                <p>この曲はLiSAっ子の間では定番の曲！</p>
+                <p>ライブでこれが流れたときの会場の一体感はもう最高！一日のやる気が奥底から書き出されるような曲です！</p>
+                <p>ROCK-mode'18っていう別バージョンもあるからそっちもきてみてね～</p>
+            </div>
+            <div class="restart_bottons">
+                <a class="button has-background-primary-light" href="index.html">もう一回！</a>
+            </div>
+        </div>
+
+
+        <div id="a3" style="display: none;">
+            <div class="resuruted3" style="display: none;">
+                <p>あなたにおすすめの曲は...</p>
+            </div>
+            <div class="result_character3">
+                <a href="https://open.spotify.com/track/45UI1yzA7vjkWHoAUZ8nGp?si=4689c373d8154a76">だってアタシのヒーロー。</a>
+            </div>
+            <div class="result_commentary3">
+                <p>あなたにおすすめの曲はだってアタシのヒーロー。！</p>
+                <p>アニメ「僕のヒーローアカデミア」の主題歌でもあり、背中おおされて、応援されているような気持ちになれる曲です！</p>
+                <p>「じぶんなんて、、」とか思ってる時にはこの曲！自分を活気づけるには持ってこい！</p>
+            </div>
+            <div class="restart_bottons">
+                <a class="button has-background-primary-light" href="index.html">もう一回！</a>
+            </div>
+        </div>
+
+        <div id="a4" style="display: none;">
+            <div class="resuruted4" style="display: none;">
+                <p>あなたにおすすめの曲は</p>
+            </div>
+            <div class="result_character4">
+                <a href="https://open.spotify.com/track/60iYkEAcSpAFcsjRrgTlrc?si=3a5aab1fa6964f4a">明け星</a>
+            </div>
+            <div class="result_commentary4">
+                <p>あなたにおすすめの曲は明け星！</p>
+                <p>この曲はアニメ「鬼滅の刃」の主題歌でもあり、主人公たちのあきらめず戦い続ける気持ちを歌った曲です！</p>
+                <p>ローテンポながら、LiSA特有の力強い歌声が心に刺さる。そんな曲です。</p>
+            </div>
+            <div class="restart_bottons">
+                <a class="button has-background-primary-light" href="index.html">もう一回！</a>
+            </div>
+        </div>
+
+        <div id="a5" style="display: none;">
+            <div class="resuruted4" style="display: none;">
+                <p>あなたにおすすめの曲は</p>
+            </div>
+            <div class="result_character5">
+                <a href="https://open.spotify.com/track/5aZFQoQTe9MjO2TWz7zIVC?si=1a1277c043114a22">エレクトリリカル</a>
+            </div>
+            <div class="result_commentary5">
+                <p>あなたにおすすめの曲はエレクトリリカル!</p>
+                <p>ゲームの中のキャラクター目線で歌われたこの歌は、世間一般的な「LiSA」とは少し離れた、かわいらしい曲となっています。</p>
+                <p>この曲のサビはLiSAっ子はみんな踊れます。w 逆に踊れなければLiSAっ子失格！と言われてもおかしくないくらい人気な曲です！ライブの一体感レべチ</p>
+            </div>
+            <div class="restart_bottons">
+                <a class="button has-background-primary-light" href="index.html">もう一回！</a>
+            </div>
+        </div>
+
+        <div id="a6" style="display: none;">
+            <div class="resuruted4" style="display: none;">
+                <p>あなたにおすすめの曲は</p>
+            </div>
+            <div class="result_character6">
+                <a href="https://open.spotify.com/track/3q61dbXbO8zR7AT9Mbad4o?si=378ad1ff23284d75">unlasting</a>
+            </div>
+            <div class="result_commentary6">
+                <p>あなたにおすすめの曲はunlasting！</p>
+                <p>この曲はアニメ「ソードアートオンライン」の主題歌で、離れた思い人を歌う曲です。</p>
+                <p>この曲は、バラード調の曲であるため、世界観に引き込まれるような曲です。LiSAとバラードは化学反応が起きます。</p>
+            </div>
+            <div class="restart_bottons">
+                <a class="button has-background-primary-light" href="index.html">もう一回！</a>
+            </div>
+        </div>
+
+        <div id="a7" style="display: none;">
+            <div class="resuruted4" style="display: none;">
+                <p>あなたにおすすめの曲は</p>
+            </div>
+            <div class="result_character7">
+                <a href="https://open.spotify.com/track/5Sr3F6fD0HsdPBZQoNyJXC?si=a532d234e675463d">虚無</a>
+            </div>
+            <div class="result_commentary7">
+                <p>あなたにおすすめの曲は虚無！</p>
+                <p>題名からして静かな曲かと思いきや力強い曲調となっています。</p>
+                <p>強くも儚い女性の生き様を歌った曲で、力強い歌声から伝わってくる世界観に引き込まれること間違いなし！</p>
+            </div>
+            <div class="restart_bottons">
+                <a class="button has-background-primary-light" href="index.html">もう一回！</a>
+            </div>
+        </div>
+
+        <div id="a8" style="display: none;">
+            <div class="resuruted4" style="display: none;">
+                <p>あなたにおすすめの曲は</p>
+            </div>
+            <div class="result_character8">
+                <a href="https://open.spotify.com/track/3OWvbjhox2ZWLoxnDYs6Pr?si=ca471b6e87824f4c">1/f</a>
+            </div>
+            <div class="result_commentary8">
+                <p>あなたにおすすめの曲は1/f！</p>
+                <p>この曲は、男女の甘酸っぱい恋の様子を歌っている曲です。</p>
+                <p>相手に対する不安、期待などの複雑な思いを歌詞としてつづっているような曲になっています。刺さるときはめちゃくちゃ刺さる。</p>
+            </div>
+            <div class="restart_bottons">
+                <a class="button has-background-primary-light" href="index.html">もう一回！</a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
